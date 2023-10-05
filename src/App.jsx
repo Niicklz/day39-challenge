@@ -15,9 +15,6 @@ export const App = () => {
     setValue(value);
   };
 
-  useEffect(() => {
-    console.log(length);
-  }, [length]);
 
   return (
     <>
