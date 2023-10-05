@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.background {
+  background-image: url(https://images.unsplash.com/photo-1556745757-8d76bdb6984b);
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: bold;
+}
+form p {
+  color: #4a5568;
+  font-size: 14px;
+}
+
+.container form {
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 375px;
+  border-radius: 8px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+
+  z-index: 2;
+}
+
+.container .botoncito {
+  margin-top: 4rem;
+  background-color: #000;
+}
